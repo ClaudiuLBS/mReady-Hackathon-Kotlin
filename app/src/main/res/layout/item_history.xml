@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_history"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp"
+    android:background="@drawable/bg_dice_history"
+    android:layout_marginHorizontal="32dp"
+    android:layout_marginTop="20dp"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:id="@+id/tv_sum"
+        style="@style/AppTheme.Widget.TextView.Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        style="@style/AppTheme.Widget.TextView.Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:text="2-4"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/tv_double"
+        style="@style/AppTheme.Widget.TextView.Regular"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Dublă"
+        android:visibility="invisible"
+        android:layout_marginStart="100dp"/>
+
+
+</LinearLayout>
